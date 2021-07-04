@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css"></link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Turntable</title>
+</head>
+<body>
+  <!--All our work for this lesson will go here-->
+  <div id="drag">
+    
+
+  </div>
+  <div class="container">
+    
+    <div class="right">
+      <div id="vinyls"></div>
+    </div>
+    <div class="left" id="drop">
+      
+      
+      <div id="player">
+        
+        <img draggable="false" class= "turntable" src="./assets/turntable.png" />
+        <div id="vinyl">
+            <div id="image_sticker">
+              <img class= "vinyl_sticker" src="./assets/covers/sample.jpg" alt="upload here" id="preview"/>
+            </div>
+            <div class="tape"></div>
+            <img class= "hole" src="./assets/hole.png" />
+          </div>
+      </div>
+      <img class= "arm" draggable="false" src="./assets/arm.png" />
+      
+      <div id="ambient-bar">
+        <div id="ambience">
+          <input type="image" draggable="false" id="rain" class = "btn btn-rain" src="./assets/icons/cloud.png">
+          <input type="image" draggable="false" id="city" class = "btn btn-city" src="./assets/icons/city-off.png">
+          <input type="image" draggable="false" id="fire" class = "btn btn-fire" src="./assets/icons/fire-off.png">
+        </div>
+        <input type="image" draggable="false" id="play-pause" class = "btn btn-play-pause" src="./assets/icons/pause.png">
+        <input type="image" draggable="false" id="stop" class = "btn btn-stop" src="./assets/icons/stop.png">
+      </div>
+      </div>
+      <div class="test_circle"></div>
+  </div>
+
+  
+  
+</body>
+<script src="index.js" charset="utf-8"></script>
+</html>
